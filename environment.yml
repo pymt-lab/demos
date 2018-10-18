@@ -1,0 +1,13 @@
+name: excom_demo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pymt
+  - pymt_hydrotrend
+  - pymt_sedflux
+  - pymt_permamodel
+  - child
+  - cem
+  - landlab
+  - jupyterlab
