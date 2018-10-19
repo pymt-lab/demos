@@ -7,7 +7,7 @@ dependencies:
   - pymt_hydrotrend
   - pymt_sedflux
   - pymt_permamodel
-  - child
+  - pymt_child
   - cem
   - landlab
   - jupyterlab
