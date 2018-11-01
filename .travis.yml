@@ -36,7 +36,7 @@ install:
 - conda create -n _testing python=$TRAVIS_PYTHON_VERSION
 - source activate _testing
 - conda install --file=requirements.txt
-  conda install pytest nbformat jupyter_client notebook
+- conda install pytest nbformat jupyter_client notebook
 - conda info -a && conda list
 script:
 - travis_wait 50 pytest -vvv
