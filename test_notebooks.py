@@ -5,7 +5,17 @@ import tempfile
 import nbformat
 
 _TEST_DIR = os.path.abspath(os.path.dirname(__file__))
-_EXCLUDE = []
+_EXCLUDE = [
+    "cem.ipynb",
+    "cem_and_waves.ipynb",
+    "child.ipynb",
+    # "frost_number.ipynb",
+    "hydrotrend.ipynb",
+    # "ku.ipynb",
+    "sedflux3d.ipynb",
+    "sedflux3d_and_child.ipynb",
+    "subside.ipynb",
+]
 
 
 def all_notebooks(path="."):
